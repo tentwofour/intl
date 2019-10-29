@@ -2,6 +2,7 @@
 
 namespace Ten24\Tests\Component\Intl;
 
+use PHPUnit\Framework\TestCase;
 use Ten24\Component\Intl\CountryHelper;
 
 /**
@@ -9,7 +10,7 @@ use Ten24\Component\Intl\CountryHelper;
  *
  * @package Ten24\Tests\Component\Intl
  */
-class CountryHelperTest extends \PHPUnit_Framework_TestCase
+class CountryHelperTest extends TestCase
 {
     private static $provinces;
     private static $states;
