@@ -14,7 +14,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getCanadianProvinces()
+    static public function getCanadianProvinces(): array
     {
         return [
             'AB' => 'Alberta',
@@ -38,7 +38,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getUSAStates()
+    static public function getUSAStates(): array
     {
         return [
             'AL' => 'Alabama',
@@ -99,7 +99,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getCanadianProvinceAbbreviations()
+    static public function getCanadianProvinceAbbreviations(): array
     {
         return array_keys(static::getCanadianProvinces());
     }
@@ -109,7 +109,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getUSAStateAbbreviations()
+    static public function getUSAStateAbbreviations(): array
     {
         return array_keys(static::getUSAStates());
     }
@@ -119,7 +119,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getCanadianProvinceNames()
+    static public function getCanadianProvinceNames(): array
     {
         return array_values(static::getCanadianProvinces());
     }
@@ -129,7 +129,7 @@ class CountryHelper
      *
      * @return array
      */
-    static public function getUSAStateNames()
+    static public function getUSAStateNames(): array
     {
         return array_values(static::getUSAStates());
     }
